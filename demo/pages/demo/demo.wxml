@@ -1,0 +1,5 @@
+<!--pages/demo/demo.wxml-->
+<view>
+  <Button bindtap="handleClick">请求demo</Button>
+  <view wx:for="{{array}}" wx:key="{{index}}" bindtap="handleTipClick" id="{{item.id}}">{{item.message}}</view>
+</view>

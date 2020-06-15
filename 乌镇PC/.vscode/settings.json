@@ -1,0 +1,26 @@
+{
+    "vsicons.presets.angular": true,
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "vue"//在这里加上vue
+        ]
+    },
+    "editor.fontSize": 15
+}
